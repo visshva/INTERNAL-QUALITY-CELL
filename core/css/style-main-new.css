@@ -9148,3 +9148,16 @@ footer-text,
   padding-bottom: 1px;
   padding-top: 140px;
 }
+.capitalize-none {
+  text-transform: none !important;
+}
+.eventSearch_box h3 span {
+  border-bottom: 4px solid  rgb(196, 13, 13);
+  padding-bottom: 2px;
+  text-transform: uppercase;}
+  .table.dataTable {
+    clear: both;
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+    max-width: none !important;
+}
