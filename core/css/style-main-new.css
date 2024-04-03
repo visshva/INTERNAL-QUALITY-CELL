@@ -9161,3 +9161,77 @@ footer-text,
     margin-bottom: 6px !important;
     max-width: none !important;
 }
+.employers-list .employers-list-logo {
+  margin-right: 25px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 80px;
+  flex: 0 0 100px;
+  border: 1px solid #eee;
+  width: 120px;
+  height: 120px;
+  padding: 0;
+  text-align: center;
+}
+.employers-list {
+  padding: 20px 20px;
+  background: #fff;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #eee;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  transition: all .3s ease-in-out;
+  border-bottom: 0;
+  box-shadow: 0 0 3px #c8c8c85e;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+.pub-section .employers-list p {
+  position: absolute;
+  top: 0;
+  right: 45px;
+  background: #eaeaea;
+  font-weight: 400;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000;
+}
+.employers-list-details {
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+.employers-list .employers-list-position {
+  margin-left: auto;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin-right: 52px;
+  margin-top: 10px;
+}
+.pub-section .employers-list .employers-list-position a {
+  width: 40px;
+  display: block;
+  height: 40px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 15px;
+  background-color: rgb(196, 13, 13) ;
+  color: #fff;
+  border: 2px solid #d54417;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.employers-list-position a {
+  font-size: 12px;
+  border-radius: 100px;
+ 
+}
+
+  
