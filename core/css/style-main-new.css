@@ -9143,3 +9143,8 @@ footer-text,
 }
 
 
+.footer-center{
+  width :200%;
+  padding-bottom: 1px;
+  padding-top: 140px;
+}
