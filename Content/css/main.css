@@ -3108,6 +3108,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: url(../img/pec2.jpg) right no-repeat;
     background-size: cover
 }
+.about-bannerss {
+    background: url(../img/Slide1.PNG) right no-repeat;
+    background-size: cover;
+    padding-top: 550px;
+}
 .about-content {
     margin-top: 110px;
     padding: 90px 0px;
