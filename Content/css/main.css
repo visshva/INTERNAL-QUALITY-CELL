@@ -6382,4 +6382,15 @@ table tbody>tr:nth-child(even)>td {
   }
   
  
-  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.gallery-area .single-imgs img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 3px;
+    border-radius: 10px;
+    background: #eee;
+}

@@ -70,10 +70,11 @@ const infiniteScroll = () => {
 }
 
 const autoPlay = () => {
-    if(window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
+    if(window.innerWidth < 1200|| !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
     // Autoplay the carousel after every 2500 ms
-    timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 1400);
+    timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 1500);
 }
+
 autoPlay();
 
 carousel.addEventListener("mousedown", dragStart);
