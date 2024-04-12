@@ -9457,7 +9457,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 11px;
   display: inline-block;
   background-color: #1074bc;
-  border-radius: 100%;
+  border-radius: 80%;
   position: relative;
   margin-right: 15px;
 }
@@ -9479,7 +9479,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   overflow: hidden;
   height: 2.5rem;
-  background-color: #f9f9f9;
+  background-color:white;
   padding-left: 100%;
   box-sizing: content-box;
 }
@@ -9510,5 +9510,5 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding: 0 2rem;
   font-size: 1.rem;
-  color: #454545;
+  color:rgb(196, 13, 13);
 }
