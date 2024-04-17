@@ -66,53 +66,53 @@
 <script src="core/js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
 <script src="ticker/breakingNews.js"></script>
 <script type="text/javascript">
-<script type="text/javascript">
     (function ($) {
-  $.fn.fontResize = function(options){
-  var increaseCount = 0;
-  var self = this;
+$.fn.fontResize = function(options){
+var increaseCount = 0;
+var self = this;
 
-  var changeFont = function(element, amount){
-    var baseFontSize = parseInt(element.css('font-size'), 10);
-    var baseLineHeight = parseInt(element.css('line-height'), 10);
-    element.css('font-size', (baseFontSize + amount) + 'px');
-    element.css('line-height', (baseLineHeight + amount) + 'px');
-  };
+var changeFont = function(element, amount){
+var baseFontSize = parseInt(element.css('font-size'), 10);
+var baseLineHeight = parseInt(element.css('line-height'), 10);
+element.css('font-size', (baseFontSize + amount) + 'px');
+element.css('line-height', (baseLineHeight + amount) + 'px');
+};
 
-  options.increaseBtn.on('click', function (e) {
-    e.preventDefault();
-    self.each(function(index, element){
-    changeFont($(element), 1);
-    });
-    increaseCount++;
-    });
-  options.resetBtn.on('click', function (e) {
-    e.preventDefault();
-    self.each(function(index, element){
-    changeFont($(element), -1);
-    });
-    //increaseCount++;
-    });		
-  options.decreaseBtn.on('click', function (e) {
-    e.preventDefault();
-    if(increaseCount === -1){ return; }
-    self.each(function(index, element){
-    changeFont($(element), -2);
-    });
-    increaseCount--;
-  });
-  }
+options.increaseBtn.on('click', function (e) {
+e.preventDefault();
+self.each(function(index, element){
+changeFont($(element), 1);
+});
+increaseCount++;
+});
+options.resetBtn.on('click', function (e) {
+e.preventDefault();
+self.each(function(index, element){
+changeFont($(element), -1);
+});
+//increaseCount++;
+});		
+options.decreaseBtn.on('click', function (e) {
+e.preventDefault();
+if(increaseCount === -1){ return; }
+self.each(function(index, element){
+changeFont($(element), -2);
+});
+increaseCount--;
+});
+}
 })(jQuery);
 
 $(function () {
-  $('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
-  increaseBtn: $('#plusfont'),
-  decreaseBtn: $('#minusfont'),
-  resetBtn: $('#resetfont'),
-  });
+$('body,h1,h2,h3,h4,h5,h6,p,ul,ol,a,input').fontResize({
+increaseBtn: $('#plusfont'),
+decreaseBtn: $('#minusfont'),
+resetBtn: $('#resetfont'),
+});
 });
 
 </script>
+
 </head>
 <body style="display: block;"><button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>
     <header id="header" class="header">
