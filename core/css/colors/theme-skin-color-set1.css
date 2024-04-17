@@ -850,7 +850,16 @@ blockquote.gray.bg-theme-colored2 footer {
 }
 /* -------- bg-theme-color ---------- */
 .bg-theme-colored2 {
-  background-color: #E9050B !important;
+  background-color:rgb(196, 13, 13) !important;
+}
+.bg-theme-colored3 {
+  background-color:rgb(196, 13, 13) !important;
+  position: relative;
+  
+  padding: 8px;
+  color: white;
+
+  text-align: center;
 }
 .bg-hover-theme-colored2:hover {
   background: #FC9928 !important;

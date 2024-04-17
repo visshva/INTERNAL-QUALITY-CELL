@@ -6186,10 +6186,10 @@ table tbody>tr:nth-child(even)>td {
     background-color: rgba(255, 255, 255, 0.6);
 }
 
-@media only screen and (max-width: 800px)
+@media only screen and (max-width: 800px){
 .scrollToTop {
     bottom: 97px;
-}
+}}
 .scrollToTop {
     font-size: 12px;
     padding: 5px;
@@ -6212,7 +6212,7 @@ table tbody>tr:nth-child(even)>td {
 }
 
 .video-background{
-    position: absolute;
+    position:absolute;
     right: 0;
     bottom: 0;
     margin-bottom: 10px;
