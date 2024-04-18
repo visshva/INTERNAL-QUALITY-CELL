@@ -3122,7 +3122,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .about-content {
     margin-top: 110px;
     padding: 90px 0px;
-    text-align: center
+    text-align: left;
+    padding-left:80px ;
 }
 
 @media (max-width: 767px) {
@@ -3132,7 +3133,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-content h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600
 }
 
