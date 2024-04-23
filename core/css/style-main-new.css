@@ -9547,12 +9547,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
 }
 .CONT{
-  position: sticky;
-/* From https://css.glass */
+  position:relative ;
+
 background: rgba(255, 255, 255, 0.13);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(7.6px);
 -webkit-backdrop-filter: blur(7.6px);
 border: 1px solid rgba(255, 255, 255, 0.59);
+}
+.header__toprightmenu {
+  background: #000;
+  float: right;
+  padding-left: 15px;
+  position: relative;
+  z-index: 999;
 }

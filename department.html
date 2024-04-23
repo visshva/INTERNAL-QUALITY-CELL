@@ -134,8 +134,8 @@ $(function () {
                       <a href="javascript:void(0)" id="minusfont" class="text-white" data-toggle="tooltip" data-placement="bottom" title="Small"><i class="fa fa-font font-11"></i>-</a>&nbsp;
                       <a href="javascript:void(0)" id="resetfont" class="resetMe text-white" data-toggle="tooltip" data-placement="bottom" title="Normal"><i class="fa fa-font font-11"></i></a>&nbsp;
                       <a href="javascript:void(0)" id="plusfont" class="text-white" data-toggle="tooltip" data-placement="bottom" title="Large"><i class="fa fa-font font-11"></i>+</a>&nbsp; 
-                      <LI><a href="Event.html" class="text-white" target="_blank">
-                        IQAC Events</a></LI>
+                      <LI><a href="iqacevents.html" class="text-white" target="_blank">
+                        IQAC Events</a></LI>         
       
                       <LI><a href="#" download="" class="text-white" target="_blank"> Annual Self Appraisal Report</a></LI> 
                        <LI><a href="gallery.html" class="text-white" ></i> Gallery </a></LI>
@@ -189,13 +189,14 @@ $(function () {
             
           
             <div class="about-content col-lg-12" >
-
-                <h1 class="text-white" style="font-size: 40px;padding-right:100px;">
-                    Departmental Committees 
-                    <BR/>
-                <span>(IQAC)</span>
+                <DIV CLASS="CONT">
+    
+                <h1 class="text-white" style="font-size: 40px;padding-left:230px;color:gray; font-family: 'Times New Roman', Times, serif;">
+                   Departmental Committees 
+               
                 </h1>
                 </div>
+        </div>
         </div>
     </div>
 </section>
@@ -348,10 +349,9 @@ $(function () {
         </div>
         <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
     </footer>
-    
     <div class="last">
             
-    
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
 
         
         <p>Copyright © 2024 INTERNAL QUALITY ASSURANCE CELL | PUDUCHERRY TECHNOLOGICAL UNIVERSITY
@@ -361,6 +361,29 @@ $(function () {
         
         
     </div>
+    
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 2 ;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+    
     
     <script src="/Content/js/vendor/jquery-2.2.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
