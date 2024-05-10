@@ -4,7 +4,7 @@
 }
 
 ::selection {
-    background-color: #ff702a;
+    background-color: #ff0000;
     color: #fff
 }
 
@@ -5590,12 +5590,12 @@ table tbody>tr:nth-child(even)>td {
     border: 1px solid #ddd;
     padding: 4px;
     height: 122px;
-    margin-bottom: 7px;
-    background: #ff702a;
+    margin-bottom: 10px;
+    background:whitesmoke;
 }
 
 .committeeBox h5 {
-    color: #000;
+    color: rgb(196, 13, 13);
 }
 
 .committeeBox {
@@ -5604,7 +5604,7 @@ table tbody>tr:nth-child(even)>td {
     padding-left: 3px;
     padding-right: 3px;
     box-shadow: 0px 1px 2px #c5c5c5;
-    width: 100%;
+    width: 110%;
     float: left;
     color: #3d3d3d;
     border-top-left-radius: 20px;
@@ -5618,7 +5618,7 @@ table tbody>tr:nth-child(even)>td {
 }
 
 .committeeBox:hover {
-    border: 2px solid #ff702a;
+    border: 2px solid rgb(196, 13, 13);
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
@@ -5630,7 +5630,11 @@ table tbody>tr:nth-child(even)>td {
 .gBodies_box {
     margin-top: 20px;
     font-size: 13px;
-    border-left: 3px solid #ff702a;
+    border-left: 3px solid rgb(196, 13, 13);
+    border-top: 3px solid rgb(196, 13, 13);
+    border-right: 1px solid rgb(196, 13, 13);
+    border-bottom: 3px solid rgb(196, 13, 13);
+
 }
 
 .gBodies_box li i {
@@ -5638,15 +5642,16 @@ table tbody>tr:nth-child(even)>td {
     margin-right: 3px;
     text-align: center;
     margin-top: 2px;
+ 
 }
 
 .gBodies_box li strong {
-    color: #ff702a;
+    color: rgb(196, 13, 13);
     font-size: 14px;
 }
 
 .galleryTitle {
-    background: #ff702a;
+    background: rgb(196, 13, 13);
     color: #fff;
     padding: 7px 0;
     font-weight: 400;
